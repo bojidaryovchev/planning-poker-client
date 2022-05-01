@@ -26,6 +26,7 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
+.env
 .env*.local
 
 # vercel
@@ -33,3 +34,7 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# GraphQL codegen
+src/typings/graphql.d.ts
+graphql.schema.json
